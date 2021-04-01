@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+html, body{
+  background-color: #996100;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+     top: 50%;
+     left: 50%;
+     -moz-transform: translateX(-50%) translateY(-50%);
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+border-style: dotted;
+border-color: white;
+border-radius: 50%;
+}
+
+.container{
+  font-family: 'Amatic SC', cursive;
+  position: absolute;
+   left: 50%;
+   -moz-transform: translateX(-50%);
+   -webkit-transform: translateX(-50%);
+   transform: translateX(-50%);
+   color: #ffbb1c;
+}
+
+h1{
+  font-size: 100px;
+}
+p{
+  font-size: 50px;
+  line-height: 0;
+  text-align: center;
+}
